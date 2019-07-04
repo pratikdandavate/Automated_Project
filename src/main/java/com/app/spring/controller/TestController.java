@@ -21,6 +21,6 @@ public class TestController {
 
 	@GetMapping("/test3")
 	public String getDetails2(){
-		return "new service 2";
+		return "new service 2 and 3";
 	}
 }
