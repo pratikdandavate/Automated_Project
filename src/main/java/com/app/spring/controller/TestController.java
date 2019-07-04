@@ -18,4 +18,9 @@ public class TestController {
 	public String getDetails(){
 		return "new service";
 	}
+
+	@GetMapping("/test3")
+	public String getDetails2(){
+		return "new service 2";
+	}
 }
